@@ -1,0 +1,6 @@
+{
+  "name": "XenDroid Dimensity Edition",
+  "description": "Versión optimizada de XenDroid para procesadores MediaTek Dimensity y GPUs ARM Mali, con monitor avanzado de hardware (FPS, RAM disponible, GPU) y parches C++ de alto rendimiento.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateX="13.5"
+        android:translateY="13.5">
+        <!-- Glowing Ring -->
+        <path
+            android:pathData="M54,16 A38,38 0 1,1 53.99,16 Z"
+            android:strokeColor="#10B981"
+            android:strokeWidth="5"
+            android:fillColor="#062B1D" />
+
+        <!-- Chrome Sphere inner gradient -->
+        <path
+            android:pathData="M54,20 A34,34 0 1,1 53.99,20 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="30"
+                    android:startY="20"
+                    android:endX="78"
+                    android:endY="88"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#2DD4BF" />
+                    <item android:offset="0.5" android:color="#059669" />
+                    <item android:offset="1.0" android:color="#022C22" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- The Iconic 360 "X" carved sphere cuts -->
+        <path
+            android:pathData="M34,34 Q54,54 74,34 Q54,54 74,74 Q54,54 34,74 Q54,54 34,34 Z"
+            android:fillColor="#F0FDF4" />
+
+        <!-- Emerald Glow center core -->
+        <path
+            android:pathData="M54,46 A8,8 0 1,1 53.99,46 Z"
+            android:fillColor="#10B981" />
+        <path
+            android:pathData="M54,50 A4,4 0 1,1 53.99,50 Z"
+            android:fillColor="#FFFFFF" />
+
+        <!-- Android Antenna Accent Top -->
+        <path
+            android:pathData="M44,14 L39,7 M64,14 L69,7"
+            android:strokeColor="#34D399"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round" />
+    </group>
+</vector>
